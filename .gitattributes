@@ -1,0 +1,4 @@
+*.cmd text eol=crlf
+*.bas text eol=crlf
+*.vbs text eol=crlf
+*.command text eol=lf
