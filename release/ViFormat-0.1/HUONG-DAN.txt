@@ -1,0 +1,26 @@
+ViFormat 0.1 - Tác giả: Phạm Văn Huy
+Add-in Word chạy offline (Windows + Mac). Không cần internet.
+
+CÀI ĐẶT
+  Mac:     1. Thoát hẳn Word (Cmd+Q).
+           2. Mở Terminal, gõ:  bash  (kéo file install.command vào cửa sổ)  rồi Enter.
+              Nếu macOS chặn file: chạy trước  xattr -dr com.apple.quarantine <thư mục này>
+           3. Mở Word, bấm Enable Macros nếu được hỏi. Tab ViFormat xuất hiện.
+           Lần đầu macOS có thể hỏi quyền điều khiển System Events: bấm cho phép.
+  Windows: 1. Đóng Word.
+           2. Chạy install.cmd (nháy đúp).
+           3. Mở Word. Nếu macro bị chặn: File > Options > Trust Center >
+              Trust Center Settings > Macro Settings > bật macro, hoặc thêm thư mục
+              %AppData%\Microsoft\Word\STARTUP vào Trusted Locations.
+
+GỠ CÀI ĐẶT (thoát Word trước)
+  Mac:     chạy  bash uninstall.command
+  Windows: chạy  uninstall.cmd (nháy đúp)
+
+NỘI DUNG GÓI
+  ViFormat.dotm          add-in (Ribbon + VBA)
+  install.command        trình cài cho Mac (kèm ViFormat.applescript, ViFormat.js: hộp thoại tiếng Việt)
+  install.cmd            trình cài cho Windows
+  uninstall.command / uninstall.cmd   trình gỡ (Mac / Windows)
+  Quy chuẩn hỗ trợ: NĐ 30/2020/NĐ-CP, HD 05-HD/VPTW.
+  Bản thử: chưa kiểm chứng trên Windows.

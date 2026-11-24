@@ -1,0 +1,116 @@
+{
+  "_comment": "Số liệu thể thức do người dùng cung cấp (24/11/2026). Nguồn chạy thật nằm trong src/modRules.bas (DetailText). Khi sửa số liệu, sửa cả hai nơi.",
+  "ND30": {
+    "title": "Nghị định 30/2020/NĐ-CP",
+    "sections": {
+      "KHỔ GIẤY": [
+        "A4 (210 x 297 mm), chiều dọc",
+        "Trường hợp có bảng, biểu không lập thành phụ lục riêng: có thể trình bày ngang"
+      ],
+      "LỀ TRANG": [
+        "Trên: 20 - 25 mm",
+        "Dưới: 20 - 25 mm",
+        "Trái: 30 - 35 mm",
+        "Phải: 15 - 20 mm"
+      ],
+      "PHÔNG CHỮ": [
+        "Times New Roman",
+        "Bộ mã Unicode theo TCVN 6909:2001",
+        "Màu chữ: đen",
+        "Kiểu chữ: đứng"
+      ],
+      "SỐ TRANG": [
+        "Đánh từ số 1, chữ số Ả Rập",
+        "Cỡ chữ: 13 - 14 pt",
+        "Kiểu chữ: đứng",
+        "Vị trí: canh giữa theo chiều ngang, nằm trong lề trên",
+        "Trang đầu tiên: không hiển thị số trang"
+      ],
+      "QUỐC HIỆU": [
+        "Nội dung: “CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM”",
+        "Vị trí: trên cùng, bên phải trang đầu",
+        "Cỡ chữ: 12 - 13 pt",
+        "Kiểu chữ: đứng, in hoa, đậm"
+      ],
+      "TIÊU NGỮ": [
+        "Nội dung: “Độc lập - Tự do - Hạnh phúc”",
+        "Vị trí: canh giữa, dưới Quốc hiệu",
+        "Cỡ chữ: 13 - 14 pt",
+        "Kiểu chữ: đứng, in thường, đậm",
+        "Viết hoa chữ cái đầu từng cụm từ",
+        "Giữa các cụm từ có gạch nối “-” và khoảng cách",
+        "Dưới Tiêu ngữ có đường kẻ ngang liền, dài bằng dòng chữ",
+        "Quốc hiệu và Tiêu ngữ cách nhau một dòng đơn"
+      ],
+      "TÊN CƠ QUAN BAN HÀNH": [
+        "Tên cơ quan chủ quản trực tiếp: in hoa, 12 - 13 pt, kiểu đứng",
+        "Tên cơ quan ban hành: in hoa, 12 - 13 pt, kiểu đứng, đậm",
+        "Canh giữa; dưới tên có đường kẻ ngang liền",
+        "Độ dài đường kẻ: 1/3 - 1/2 độ dài dòng chữ",
+        "Các dòng tên cơ quan cách nhau dòng đơn"
+      ],
+      "SỐ, KÝ HIỆU VĂN BẢN": [
+        "Số văn bản: chữ số Ả Rập",
+        "Số và ký hiệu là duy nhất trong năm",
+        "Thống nhất giữa văn bản giấy và văn bản điện tử"
+      ],
+      "NỘI DUNG VĂN BẢN": [
+        "Cỡ chữ: 13 - 14 pt, theo quy định riêng cho từng thành phần thể thức",
+        "Phông chữ: Times New Roman, màu đen",
+        "Giãn dòng, khoảng cách đoạn, lùi đầu dòng: Nghị định 30/2020/NĐ-CP",
+        "KHÔNG quy định giá trị bắt buộc cụ thể",
+        "=> Không nên kiểm tra cứng các tham số này; chỉ kiểm tra khi cơ quan có quy chế nội bộ riêng."
+      ],
+      "CHỮ KÝ, DẤU": [
+        "Văn bản giấy: ký bằng bút mực màu xanh, không dùng mực dễ phai",
+        "Văn bản điện tử: ký số theo quy định",
+        "Dấu đóng rõ, ngay ngắn, đúng chiều, mực đỏ",
+        "Dấu trùm khoảng 1/3 chữ ký về phía bên trái",
+        "Dấu giáp lai: đặt giữa mép phải, mỗi dấu tối đa 05 tờ"
+      ]
+    }
+  },
+  "HD05": {
+    "title": "Hướng dẫn 05-HD/VPTW",
+    "sections": {
+      "KHỔ GIẤY": [
+        "A4 (210 x 297 mm)",
+        "Trình bày theo chiều dọc"
+      ],
+      "LỀ TRANG": [
+        "Trên: 20 - 25 mm",
+        "Dưới: 20 - 25 mm",
+        "Trái: 30 - 35 mm",
+        "Phải: 15 - 20 mm"
+      ],
+      "PHÔNG CHỮ": [
+        "Times New Roman",
+        "Màu đen"
+      ],
+      "CỠ CHỮ": [
+        "Nội dung văn bản: 13 - 14 pt",
+        "Số trang: 13 - 14 pt"
+      ],
+      "SỐ TRANG": [
+        "Chữ số Ả Rập",
+        "Canh giữa trong lề trên",
+        "Không hiển thị ở trang đầu"
+      ],
+      "TIÊU ĐỀ BẮT BUỘC": [
+        "“Đảng Cộng sản Việt Nam”",
+        "Tên cơ quan ban hành",
+        "Số và ký hiệu văn bản",
+        "Địa danh, ngày/tháng/năm ban hành",
+        "Tên loại và trích yếu nội dung",
+        "Nội dung văn bản",
+        "Chức vụ, họ tên, chữ ký người có thẩm quyền",
+        "Dấu cơ quan ban hành"
+      ],
+      "LƯU Ý": [
+        "Văn bản chứa bí mật nhà nước: áp dụng Hướng dẫn này",
+        "kết hợp quy định bảo vệ bí mật nhà nước",
+        "Văn bản chuyên ngành, sách, ấn phẩm: không thuộc phạm vi này"
+      ]
+    }
+  }
+}

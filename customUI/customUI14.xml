@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_OnLoad">
+  <ribbon>
+    <tabs>
+      <tab id="tabViFormat" label="ViFormat" insertAfterMso="TabView">
+
+        <group id="grpCheck" label="Chuẩn hóa &amp; Rà soát">
+          <dropDown id="ddRule" label="Quy chuẩn:" sizeString="WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW"
+                    getSelectedItemID="DD_Rule_GetSelectedItemID"
+                    onAction="DD_Rule_OnAction">
+            <item id="ND30" label="NĐ 30/2020/NĐ-CP (Hành chính nhà nước)"/>
+            <item id="HD05" label="HD 05-HD/VPTW (Văn bản của Đảng)"/>
+          </dropDown>
+          <button id="btnRuleDetails" label="Xem quy chuẩn" imageMso="ReadingModeToggle"
+                    onAction="Btn_RuleDetails" screentip="Xem chi tiết quy chuẩn"
+                    supertip="Hiển thị lề trang, phông chữ, cỡ chữ, giãn dòng và các thành phần của quy chuẩn đang chọn."/>
+          <button id="btnNormalize" label="Chuẩn hóa" size="large"
+                  imageMso="FormatPainter" onAction="Btn_Normalize"
+                  screentip="Chuẩn hóa văn bản"
+                  supertip="Căn lề A4, phông chữ, cỡ chữ, giãn dòng, khối đầu và số trang theo quy chuẩn đang chọn. Hoàn tác được bằng Undo (Ctrl+Z / Cmd+Z)."/>
+          <button id="btnReview" label="Rà soát thể thức" size="large"
+                  imageMso="Spelling" onAction="Btn_Review"
+                  screentip="Rà soát thể thức"
+                  supertip="Kiểm tra văn bản theo quy chuẩn đang chọn và ghi nhận xét (Comment) ngay trong Word. Không tự sửa nội dung."/>
+          <button id="btnClearReview" label="Xóa nhận xét ViFormat" size="large"
+                  imageMso="ReviewDeleteComment" onAction="Btn_ClearReview"/>
+        </group>
+
+        <group id="grpLayout" label="Bố cục trang">
+          <button id="btnA4" label="Căn lề trang A4" size="large"
+                  imageMso="PageSetupDialog" onAction="Btn_PageA4"/>
+          <button id="btnLandscape" label="Chèn trang ngang" size="normal"
+                  imageMso="PageBreakInsertOrRemove" onAction="Btn_Landscape"/>
+          <button id="btnPortrait" label="Chèn trang dọc" size="normal"
+                  imageMso="PageBreakInsertOrRemove" onAction="Btn_Portrait"/>
+          <button id="btnBlank" label="Xóa trang trắng" size="normal"
+                  imageMso="PageBreakRemove" onAction="Btn_RemoveBlank"/>
+          <button id="btnPageNum" label="Đánh số trang" size="large"
+                  image="imgPageNum" onAction="Btn_PageNumber"/>
+        </group>
+
+        <group id="grpInfo" label="Thông tin">
+          <button id="btnAbout" label="Thông tin ViFormat" size="large"
+                  imageMso="Help" onAction="Btn_About"/>
+        </group>
+
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
